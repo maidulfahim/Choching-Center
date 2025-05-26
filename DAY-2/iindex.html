@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ব্রাইট  কোচিং  সেন্টার 
+</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">ব্রাইট  কোচিং  সেন্টার 
+</div>
+      <ul>
+        <li><a href="#home">হোম</a></li>
+        <li><a href="#about">আমাদের সম্পর্কে</a></li>
+        <li><a href="#courses">কোর্স</a></li>
+        <li><a href="#schedule">সময়সূচী</a></li>
+        <li><a href="#registration">রেজিস্ট্রেশন</a></li>
+        <li><a href="#contact">যোগাযোগ</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="hero">
+    <h1>ব্রাইট  কোচিং  সেন্টার 
+-এ স্বাগতম</h1>
+    <p>আপনার সাফল্যের পথ এখান থেকেই শুরু।</p>
+    <button onclick="scrollToContact()">যোগাযোগ করুন</button>
+  </section>
+
+  <section id="about">
+    <h2>আমাদের সম্পর্কে</h2>
+    <p>আমরা গুণগত কোচিং ও ব্যক্তিগত মনোযোগের মাধ্যমে শিক্ষার্থীদের সফলতা নিশ্চিত করি।</p>
+  </section>
+
+  <section id="courses">
+    <h2>আমাদের কোর্সসমূহ</h2>
+    <ul>
+      <li>গণিত - শ্রেণি ৮ থেকে ১২</li>
+      <li>পদার্থবিজ্ঞান - শ্রেণি ১১ ও ১২</li>
+      <li>ভর্তির প্রস্তুতি (JSC, SSC, HSC)</li>
+    </ul>
+  </section>
+
+  <section id="schedule">
+    <h2>ক্লাস সময়সূচী</h2>
+    <table>
+      <tr><th>দিন</th><th>কোর্স</th><th>সময়</th></tr>
+      <tr><td>রবিবার</td><td>গণিত</td><td>৯টা - ১১টা</td></tr>
+      <tr><td>সোমবার</td><td>পদার্থবিজ্ঞান</td><td>১১টা - ১টা</td></tr>
+    </table>
+  </section>
+
+  <section id="registration">
+    <h2>ছাত্র রেজিস্ট্রেশন</h2>
+    <form id="registrationForm">
+      <input type="text" placeholder="নাম" required />
+      <input type="number" placeholder="মোবাইল" required />
+      <input type="email" placeholder="ইমেইল" required />
+      <select required>
+        <option value="">কোর্স নির্বাচন করুন</option>
+        <option value="math">গণিত</option>
+        <option value="physics">পদার্থবিজ্ঞান</option>
+        <option value="admission">ভর্তি প্রস্তুতি</option>
+      </select>
+      <button type="submit">রেজিস্টার করুন</button>
+    </form>
+    <p id="registrationMessage"></p>
+  </section>
+
+  <section id="contact">
+    <h2>যোগাযোগ করুন</h2>
+    <form id="contactForm">
+      <input type="text" placeholder="আপনার নাম" required />
+      <input type="email" placeholder="আপনার ইমেইল" required />
+      <textarea placeholder="বার্তা লিখুন" required></textarea>
+      <button type="submit">পাঠান</button>
+    </form>
+    <p id="formMessage"></p>
+
+    <p>📞 <a href="tel:+8801234567890">কল করুন: ০১২৩৪৫৬৭৮৯০</a></p>
+    <p>📧 <a href="mailto:bright@coaching.com">bright@coaching.com</a></p>
+
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="100%" height="300" style="border:0;" allowfullscreen loading="lazy"></iframe>
+  </section>
+
+  <footer>
+    <p>&copy; ২০২৫ ব্রাইট  কোচিং  সেন্টার 
+. সর্বস্বত্ব সংরক্ষিত।</p>
+  </footer>
+
+  <button id="darkModeToggle">🌙 ডার্ক মোড</button>
+  <a href="https://wa.me/8801234567890" class="whatsapp" target="_blank">📱 হোয়াটসঅ্যাপ</a>
+
+  <script src="file.js"></script>
+</body>
+</html>

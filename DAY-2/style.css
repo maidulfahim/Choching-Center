@@ -1,0 +1,158 @@
+/* style.css */
+body {
+  font-family: 'Hind Siliguri', sans-serif;
+  line-height: 1.6;
+  background: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: #003366;
+  padding: 20px;
+  color: white;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+nav .logo {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-left: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.hero {
+  background: #0066cc;
+  color: white;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: white;
+  color: #0066cc;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+#courses ul {
+  list-style: disc inside;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form input,
+form textarea,
+form select {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1em;
+}
+
+form button {
+  background: #003366;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center;
+  background: #003366;
+  color: white;
+  padding: 10px 0;
+  margin-top: 40px;
+}
+
+#schedule table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+#schedule th,
+#schedule td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+#darkModeToggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px;
+  background: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 1000;
+}
+
+.whatsapp {
+  position: fixed;
+  bottom: 70px;
+  right: 20px;
+  background: #25d366;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  z-index: 1000;
+}
+
+body.dark {
+  background: #121212;
+  color: #eee;
+}
+
+body.dark header,
+body.dark section,
+body.dark footer {
+  background: #1e1e1e;
+  color: #eee;
+}
+
+body.dark nav ul li a {
+  color: #eee;
+}
+
+body.dark .hero button {
+  background: #444;
+  color: #fff;
+}
